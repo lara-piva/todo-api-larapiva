@@ -13,4 +13,11 @@ let resultado = linhas;
 return resultado;
 }
 
+async function buscarTarefaPorId(id) {
+const [linhas] = await db.query("SELECT * FROM tarefas WHERE id = ?", [
+id,
+]);
+return linhas[0];
+}
+
 module.exports = { listarTarefas };
