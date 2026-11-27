@@ -28,7 +28,7 @@ _(Sprint 2: uma linha para cada rota da API)_
 
 # Acompanhamento do projeto
 
-**Quadro usado:** _(preencher: GitHub Projects ou Trello)_
+**Quadro usado:** GitHub Projects
 
 ## Sprint 1 — Tarefas
 
@@ -52,7 +52,7 @@ _(Sprint 2: uma linha para cada rota da API)_
 
 ![Quadro no fim do Sprint 2](docs/sprint2-fim.png)
 
-**Placar do `npm run conferir`:** Sprint 1: _(preencher)_ de 14 · Sprint 2: _(preencher)_ de 8 · Bônus: _(preencher)_ de 5
+**Placar do `npm run conferir`:** Sprint 1: 14 de 14 · Sprint 2: _(preencher)_ de 8 · Bônus: 2 de 5
 
 ## Reflexão final
 
