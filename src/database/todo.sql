@@ -10,14 +10,14 @@ USE todo;
 CREATE TABLE tarefas (
 id INT AUTO_INCREMENT PRIMARY KEY,
 titulo VARCHAR(100) NOT NULL,
-prioridade VARCHAR(10) ________,
-status VARCHAR(10) ________
+prioridade VARCHAR(10) NOT NULL,
+status VARCHAR(10) NOT NULL
 );
 
 -- Depois dele, o INSERT com a carga inicial (pelo menos 3 tarefas).
 INSERT INTO tarefas (titulo, prioridade, status) VALUES
 ('Estudar para a prova de PBE', 'alta', 'fazendo'),
 ('Lavar a louça', 'media', 'feita'),
-('Arrumar o quarto', '______', '______');
+('Arrumar o quarto', 'baixa', 'fazer');
 
 SELECT * FROM tarefas;
