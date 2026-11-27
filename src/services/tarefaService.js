@@ -46,4 +46,10 @@ if (dados.status !== undefined) tarefa.status = dados.status;
 return await atualizarTarefa(id, tarefa);
 }
 
-module.exports = { listarTarefas, buscarTarefaPorId, criarTarefa };
+async function deletarTarefa(id) {
+const [resultado] = await db.query("DELETE FROM tarefas WHERE id = ?", [id]);
+return resultado.affectedRows > ____;
+}
+
+module.exports = { listarTarefas, buscarTarefaPorId, criarTarefa, atualizarTarefa, atualizarParcialTarefa };
+
